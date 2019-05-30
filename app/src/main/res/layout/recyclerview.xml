@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:logo="@drawable/logo60x"
+        android:background="@color/colorPrimary2"
+        app:title=" "
+        app:titleTextColor="#ffffffff"/>
+
+    <com.miguelcatalan.materialsearchview.MaterialSearchView
+        android:id="@+id/searchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:searchBackground="?colorAccent"
+        app:searchBackIcon="@drawable/ic_arrow_back_black_24dp"
+        app:searchCloseIcon="@drawable/ic_close_black"
+        android:textColor="#FFFFFFFF"
+        android:textColorHint="#FFFFFFFF"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/miorecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="327dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:padding="4dp"
+        android:scrollbars="vertical">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

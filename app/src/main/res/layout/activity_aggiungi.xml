@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context=".Aggiungi">
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:padding="2dp"
+            android:text="Ticket"
+            android:textAlignment="center"
+            android:textColor="#111010"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editex_ticket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:inputType="number"
+            android:padding="2dp"
+            android:textAlignment="viewStart"
+            android:textColor="#111010"
+            android:textColorLink="@color/theme_accent_1"
+            android:textCursorDrawable="@color/theme_accent_1"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txredattore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:padding="2dp"
+            android:text="Redattore"
+            android:textAlignment="center"
+            android:textColor="#111010"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editex_redattore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:inputType="text|textCapCharacters"
+            android:padding="2dp"
+            android:textAlignment="viewStart"
+            android:textColor="#111010"
+            android:textColorLink="@color/theme_accent_1"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:padding="2dp"
+            android:text="Targa"
+            android:textAlignment="center"
+            android:textColor="#111010"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editex_targa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:inputType="textCapCharacters"
+            android:padding="2dp"
+            android:textAlignment="viewStart"
+            android:textColor="#111010"
+            android:textColorLink="@color/theme_accent_1"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txdataA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:padding="2dp"
+            android:text="Data Apertura"
+            android:textAlignment="center"
+            android:textColor="#111010"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editex_dataA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:inputType="date"
+            android:padding="2dp"
+            android:textAlignment="viewStart"
+            android:textColor="#111010"
+            android:textColorLink="@color/theme_accent_1"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txmateriale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:padding="2dp"
+        android:text="Materiale Guasto"
+        android:textAlignment="center"
+        android:textColor="#111010"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editex_materiale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:inputType="textCapCharacters"
+            android:padding="2dp"
+            android:textAlignment="viewStart"
+            android:textColor="#111010"
+            android:textColorLink="@color/theme_accent_1"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+</LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txdataP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:padding="2dp"
+            android:text="Data Chiusura"
+            android:textAlignment="center"
+            android:textColor="#111010"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editex_dataC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:inputType="date"
+            android:padding="2dp"
+            android:textAlignment="viewStart"
+            android:textColor="#111010"
+            android:textColorLink="@color/theme_accent_1"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:onClick="SAVE"
+        android:enabled="false"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/sicilia118" />
+
+
+
+</LinearLayout>
+
+
+

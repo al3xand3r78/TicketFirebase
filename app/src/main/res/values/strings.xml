@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Gestione Ticket</string>
+    <string name="aggiungi">AGGIUNGI</string>
+    <string name="visualizza">VISUALIZZA</string>
+    <string name="modifica">MODIFICA</string>
+    <string name="ticket">Ticket</string>
+    <string name="aggiungo">AGGIUNGI</string>
+    <string name="visualizzo">VISUALIZZA</string>
+    <string name="save">SALVA</string>
+    <string name="mode">MODIFICA</string>
+    <string name="salvamenu">Salva</string>
+
+
+    <string name="search_result">Search Result!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">Cerca Ticket...</string>
+    <string name="menu_search">Search</string>
+    <string name="searchitem">Search..</string>
+
+    <string name="TitleModifica">Modifica</string>
+    <string name="miologo118">logo118</string>
+</resources>
